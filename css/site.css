@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url("../img/bar.jpg");
+    background-position:center;
+}
+
+.leader {
+    color: #fff;
+    text-align: left;
+    display:inline-block;
+    padding: 10px;
+}
+
+.leader .title {
+    font-family: 'Droid Sans';
+    font-weight: 700;
+    font-size: 600%;
+    display: block;
+}
+
+.leader .subtitle {
+    margin-top: 15px;
+    font-size: 200%;
+    display: block;
+}
