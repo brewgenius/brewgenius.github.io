@@ -5,23 +5,27 @@ html, body {
 body {
     background: url("../img/bar.jpg");
     background-position:center;
+    background-size:100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
-.leader {
+.hero {
     color: #fff;
-    text-align: left;
-    display:inline-block;
-    padding: 10px;
+    text-align: center;
 }
 
-.leader .title {
+.hero .title {
     font-family: 'Droid Sans';
     font-weight: 700;
     font-size: 600%;
     display: block;
 }
 
-.leader .subtitle {
+.hero .subtitle {
     margin-top: 15px;
     font-size: 200%;
     display: block;
